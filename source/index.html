@@ -3,33 +3,45 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="preload" href="fonts/opensans.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/opensansbold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/opensanslight.woff2" as="font" crossorigin="anonymous">
   <title>HTML Academy: Пинк</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header>
-    <div>
-      <div>
-        <a href="#">
-          <img src="" alt="">
+  <header class="main-header main-header--close-menu">
+    <div class="main-header__wrapper">
+      <div class="main-header__top-line">
+        <a class="main-header__logo-container" href="#">
+          <img class="main-header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22"
+            alt="Логотип Pink">
         </a>
-        <button><span class="visually-hidden">Открыть меню</span></button>
+        <button class="main-header__button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
       </div>
-      <ul>
-        <li>
-          <a href="">Главная</a>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="nav-list__item">
+          <a class="nav-list__link" href="">Главная</a>
         </li>
-        <li>
-          <a href="">Фотографии</a>
+        <li class="nav-list__item">
+          <a class="nav-list__link" href="">Фотографии</a>
         </li>
-        <li>
-          <a href="">Конкурс</a>
+        <li class="nav-list__item">
+          <a class="nav-list__link" href="">Конкурс</a>
         </li>
-        <li>
-          <a href="">HTML Academy</a>
+        <li class="nav-list__item">
+          <a class="nav-list__link" href="">HTML Academy</a>
         </li>
       </ul>
-    </div>
+    </nav>
+
   </header>
   <main>
     <div>
