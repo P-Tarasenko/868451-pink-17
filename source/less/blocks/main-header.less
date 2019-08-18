@@ -2,7 +2,19 @@
   background-color: @dark;
 }
 
+.main-header__bg-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-top: -67px;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position: center 0;
+  background-repeat: no-repeat;
+  min-height: 462px;
+}
+
 .main-header__wrapper {
+  position: relative;
+  z-index: 2;
   width: 280px;
   margin: 0 auto;
 }
@@ -11,10 +23,16 @@
   display: flex;
   justify-content: space-between;
   padding: 22px 0;
-  background-color: @dark;
+  // background-color: @dark;
 }
 
-.main-header--close-menu .main-header__top-line {
+// .main-header--close-menu .main-header__top-line {
+//   background-color: rgba(29, 38, 49, 0.3);
+// }
+
+.main-header--close-menu .main-header__bg-line {
+  position: relative;
+  z-index: 2;
   background-color: rgba(29, 38, 49, 0.3);
 }
 
@@ -35,4 +53,17 @@
 
 .main-header--close-menu .nav-list {
   display: none;
+}
+
+.main-header--close-menu .main-header__bg-wrapper {
+  margin-top: -70px;
+}
+
+.main-header__hand-image {
+  position: relative;
+  z-index: 1;
+  width: 320px;
+  margin: 0 auto;
+  margin-top: -286px;
+  font-size: 0;
 }
