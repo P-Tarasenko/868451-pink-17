@@ -1,0 +1,50 @@
+.review {
+  position: relative;
+}
+
+.review__wrapper {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.review__author {
+  display: block;
+  margin-top: -46px;
+  padding-top: 43px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+.review__quote {
+  width: 278px;
+  margin: 0 auto;
+  line-height: 2.2;
+  color: @dark;
+}
+
+.review__control {
+  display: flex;
+  justify-content: space-between;
+  width: 58px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.review__label {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: @dark;
+  opacity: 0.3;
+}
+
+.review__input:checked + .review__label {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px @dark;
+  opacity: 1;
+}

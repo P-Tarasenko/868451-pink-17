@@ -55,16 +55,16 @@
         <h2 class="visually-hidden">Доступность нашего приложения:</h2>
         <div class="availability__wrapper">
           <h1 class="availability__heading">Взгляните на жизнь иначе!</h1>
-          <a class="availability__link" href="#">Скачать приложение</a>
+          <a class="availability__link" href="https://www.apple.com/ru/itunes/">Скачать приложение</a>
           <ul class="availability__list">
             <li class="availability__item availability__item--padding-bottom">
-              <a class="availability__ios" href=""><span class="visually-hidden">IOS</span></a>
+              <a class="availability__ios" href="https://www.apple.com/ru/itunes/"><span class="visually-hidden">IOS</span></a>
             </li>
             <li class="availability__item">
-              <a class="availability__android" href=""><span class="visually-hidden">Android</span></a>
+              <a class="availability__android" href="https://play.google.com/store"><span class="visually-hidden">Android</span></a>
             </li>
             <li class="availability__item">
-              <a class="availability__windows" href=""><span class="visually-hidden">Windows</span></a>
+              <a class="availability__windows" href="https://www.microsoft.com/ru-ru/store/b/home?rtc=1"><span class="visually-hidden">Windows</span></a>
             </li>
           </ul>
           <p class="availability__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
@@ -96,12 +96,20 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="review">
         <h2 class="visually-hidden">Отзывы:</h2>
-        <div>
-          <cite>Николай Петров</cite>
-          <blockquote>«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще
+        <div class="review__wrapper">
+          <cite class="review__author">Николай Петров</cite>
+          <blockquote class="review__quote">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще
             я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</blockquote>
+        </div>
+        <div class="review__control">
+          <input class="review__input visually-hidden" type="radio" name="slider" id="first" checked>
+          <label class="review__label" for="first"></label>
+          <input class="review__input visually-hidden" type="radio" name="slider" id="second">
+          <label class="review__label" for="second"></label>
+          <input class="review__input visually-hidden" type="radio" name="slider" id="third">
+          <label class="review__label" for="third"></label>
         </div>
       </section>
       <section>
