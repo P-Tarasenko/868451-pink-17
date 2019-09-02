@@ -45,8 +45,11 @@
     </nav>
     <div class="main-header__bg-wrapper"></div>
     <div class="main-header__hand-image">
-      <img src="img/iphone-hand-mobile@1x.png" width="258" height="286"
-        alt="Фильтр нашего приложения заменил серый цвет фона фотографии на розовый!">
+      <picture>
+        <source type="image/webp" srcset="img/iphone-hand-mobile@1x.webp 1x, img/iphone-hand-mobile@2x.webp 2x">
+        <img src="img/iphone-hand-mobile@1x.png" width="258" height="286" srcset="img/iphone-hand-mobile@2x.png 2x"
+          alt="Фильтр нашего приложения заменил серый цвет фона фотографии на розовый!">
+      </picture>
     </div>
   </header>
   <main class="main-content">
@@ -98,7 +101,10 @@
             </li>
           </ul>
           <div class="about__image-container">
-            <img class="about__image" src="img/iphone-screen-mobile@1x.png" width="157" height="320" alt="">
+            <picture>
+              <source type="image/webp" srcset="img/iphone-screen-mobile@1x.webp 1x, img/iphone-screen-mobile@2x.webp 2x">
+              <img class="about__image" src="img/iphone-screen-mobile@1x.png" srcset="img/iphone-screen-mobile@2x.png 2x" width="157" height="320" alt="">
+            </picture>
           </div>
         </div>
       </section>
